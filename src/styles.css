@@ -13,7 +13,8 @@
 }
 
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;width:100%;min-height:100%}
+body,#root{width:100%;min-height:100%;max-width:100%}
 body{
   margin:0;
   background:var(--paper);
@@ -111,6 +112,7 @@ img{max-width:100%}
 .icon{display:block;flex:0 0 auto}
 
 .hero{
+  width:100%;
   height:clamp(500px,43.5vw,690px);
   min-height:500px;
   position:relative;
@@ -120,6 +122,8 @@ img{max-width:100%}
   background:var(--navy-deep);
 }
 .hero-bg{
+  width:100%;
+  height:100%;
   position:absolute;
   inset:-1%;
   background:
