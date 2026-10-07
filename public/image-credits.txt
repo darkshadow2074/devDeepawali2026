@@ -7,12 +7,14 @@ The site uses Wikimedia Commons photographs. Keep the source URLs and licence in
 2. Ghats of Varanasi Getting ready for Dev Deepawali 41.jpg — Goutam1962 — CC BY-SA 4.0
    https://commons.wikimedia.org/wiki/File:Ghats_of_Varanasi_Getting_ready_for_Dev_Deepawali_41.jpg
 3. Dev Deepavali at Varanasi DSC04305 07.jpg — Sumita Roy Dutta — CC BY-SA 4.0
-   https://commons.wikimedia.org/wiki/File:Dev_Deepavali_at_Varanasi_DSC04305_07.jpg
+   https://commons.wikimedia.org/wiki/File:Dev_Deepawali_at_Varanasi_DSC04305_07.jpg
 4. Dev Deepavali at Varanasi DSC04305 12.jpg — Sumita Roy Dutta — CC BY-SA 4.0
-   https://commons.wikimedia.org/wiki/File:Dev_Deepavali_at_Varanasi_DSC04305_12.jpg
-5. View of Kashi Vishwanath Temple from a boat at night.jpg — Immanuelle — CC BY 4.0
+   https://commons.wikimedia.org/wiki/File:Dev_Deepawali_at_Varanasi_DSC04305_12.jpg
+5. Dev Deepavali at Varanasi DSC04305 13.jpg — Sumita Roy Dutta — CC BY-SA 4.0
+   https://commons.wikimedia.org/wiki/File:Dev_Deepawali_at_Varanasi_DSC04305_13.jpg
+6. Dev Deepavali at Varanasi DSC04305 14.jpg — Sumita Roy Dutta — CC BY-SA 4.0
+   https://commons.wikimedia.org/wiki/File:Dev_Deepawali_at_Varanasi_DSC04305_14.jpg
+7. View of Kashi Vishwanath Temple from a boat at night.jpg — Immanuelle — CC BY 4.0
    https://commons.wikimedia.org/wiki/File:View_of_Kashi_Vishwanath_Temple_from_a_boat_at_night.jpg
-6. Night lights and river ganga.jpg — Srijitsen28 — CC BY 4.0
+8. Night lights and river ganga.jpg — Srijitsen28 — CC BY 4.0
    https://commons.wikimedia.org/wiki/File:Night_lights_and_river_ganga.jpg
-7. Night Tour of the Ghats of Varanasi by Boat by Immanuelle-8699.jpg — Immanuelle — CC BY 4.0
-   https://commons.wikimedia.org/wiki/File:Night_Tour_of_the_Ghats_of_Varanasi_by_Boat_by_Immanuelle-155388699.jpg
