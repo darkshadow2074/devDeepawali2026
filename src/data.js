@@ -7,11 +7,24 @@ export const SITE = {
   whatsappRaw: "https://wa.me/918115533981",
 };
 
+const img = (src, alt, credit) => ({ src, alt, credit });
+
+export const images = [
+  img("https://devdiwaliboatbooking.com/assets/img/gallery/moment-festival-crowd.png", "Dev Deepawali boats on the Ganga with illuminated Varanasi ghats", "Source: Dev Diwali Boat Booking Varanasi"),
+  img("https://www.clubmahindra.com/blog/images/Dev-deepavali-ganga-ghat-resized.jpg", "Boat ride beside illuminated Varanasi ghats during Dev Deepawali", "Source: Club Mahindra"),
+  img("https://www.pelago.com/img/products/IN-India/kashi-temple-tour/8df00c43-d6b2-4ea5-8b4c-5d99e4df17ff_kashi-temple-tour-xlarge.jpg", "Boat and diyas on the Ganga at Varanasi", "Source: Pelago"),
+  img("https://im.rediff.com/news/2020/dec/01modi-vns9.jpg?h=900&w=670", "Boat silhouette and illuminated riverfront during Dev Deepawali", "Source: Rediff"),
+  img("https://akm-img-a-in.tosshub.com/aajtak/images/story/202511/69099b0fc9dc5-dev-diwali-2025-041954370-16x9.png?size=948%3A533", "Rows of diyas along the Varanasi ghats", "Source: Aaj Tak"),
+  img("https://images.news9live.com/wp-content/uploads/2025/10/varanasi-.png", "Floating diyas on the Ganga at night", "Source: News9"),
+  img("https://media.assettype.com/outlooktraveller%2F2023-11%2F18eebef3-9037-46c8-b107-44c5806ea2fe%2Fshutterstock_1263750487.jpg", "Dev Deepawali lamps being arranged on Varanasi ghats", "Source: Outlook Traveller"),
+  img("https://assets.zeezest.com/blogs/PROD_blob_1762154046260.blob", "Boat passengers watching illuminated Varanasi ghats", "Source: Zee Zest"),
+];
+
 export const boats = [
   { title: "Premium Boat", capacity: "Up to 8 people", image: 1 },
   { title: "Deluxe Boat", capacity: "Up to 15 people", image: 2 },
-  { title: "Family Boat", capacity: "Up to 25 people", image: 3 },
-  { title: "Group Boat", capacity: "Up to 40 people", image: 4 },
+  { title: "Family Boat", capacity: "Up to 25 people", image: 7 },
+  { title: "Group Boat", capacity: "Up to 40 people", image: 3 },
 ];
 
 export const faqs = [
@@ -21,47 +34,4 @@ export const faqs = [
   "Is food or refreshments available?",
   "Are the boats safe and insured?",
   "What is the cancellation policy?",
-];
-
-export const images = [
-  {
-    src: "https://commons.wikimedia.org/wiki/Special:FilePath/Dev_Deepavali_at_Varanasi_DSC04305_16.jpg?width=1800",
-    alt: "Dev Deepawali lights and boats in Varanasi",
-    credit: "Sumita Roy Dutta / Wikimedia Commons",
-  },
-  {
-    src: "https://commons.wikimedia.org/wiki/Special:FilePath/Dev_Deepavali_at_Varanasi_DSC04305_07.jpg?width=1500",
-    alt: "Dev Deepawali celebration in Varanasi",
-    credit: "Sumita Roy Dutta / Wikimedia Commons",
-  },
-  {
-    src: "https://commons.wikimedia.org/wiki/Special:FilePath/Dev_Deepavali_at_Varanasi_DSC04305_12.jpg?width=1500",
-    alt: "Illuminated ghats during Dev Deepawali",
-    credit: "Sumita Roy Dutta / Wikimedia Commons",
-  },
-  {
-    src: "https://commons.wikimedia.org/wiki/Special:FilePath/Dev_Deepavali_at_Varanasi_DSC04305_13.jpg?width=1500",
-    alt: "Dev Deepawali riverfront at night",
-    credit: "Sumita Roy Dutta / Wikimedia Commons",
-  },
-  {
-    src: "https://commons.wikimedia.org/wiki/Special:FilePath/Dev_Deepavali_at_Varanasi_DSC04305_14.jpg?width=1500",
-    alt: "Rows of diyas across the Varanasi ghats",
-    credit: "Sumita Roy Dutta / Wikimedia Commons",
-  },
-  {
-    src: "https://commons.wikimedia.org/wiki/Special:FilePath/Ghats_of_Varanasi_Getting_ready_for_Dev_Deepawali_41.jpg?width=1500",
-    alt: "Varanasi ghats prepared for Dev Deepawali",
-    credit: "Goutam1962 / Wikimedia Commons",
-  },
-  {
-    src: "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Kashi_Vishwanath_Temple_from_a_boat_at_night.jpg?width=1500",
-    alt: "Kashi Vishwanath Temple viewed from a boat at night",
-    credit: "Immanuelle / Wikimedia Commons",
-  },
-  {
-    src: "https://commons.wikimedia.org/wiki/Special:FilePath/Night_lights_and_river_ganga.jpg?width=1500",
-    alt: "Night lights along the Ganga",
-    credit: "Srijitsen28 / Wikimedia Commons",
-  },
 ];
