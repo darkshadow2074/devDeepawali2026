@@ -111,7 +111,8 @@ img{max-width:100%}
 .icon{display:block;flex:0 0 auto}
 
 .hero{
-  min-height:100svh;
+  height:clamp(500px,43.5vw,690px);
+  min-height:500px;
   position:relative;
   display:flex;
   align-items:center;
@@ -122,7 +123,7 @@ img{max-width:100%}
   position:absolute;
   inset:-1%;
   background:
-    url("https://commons.wikimedia.org/wiki/Special:FilePath/Dev_Deepavali_at_Varanasi_DSC04305_16.jpg?width=1800")
+    url("https://devdiwaliboatbooking.com/assets/img/gallery/moment-festival-crowd.png")
     center 44%/cover no-repeat;
   transform:scale(1.025);
 }
@@ -137,7 +138,7 @@ img{max-width:100%}
   position:relative;
   width:min(1160px,87%);
   margin:0 auto;
-  padding-top:54px;
+  padding-top:40px;
 }
 .eyebrow{
   display:flex;
@@ -221,7 +222,7 @@ img{max-width:100%}
 
 .boats-section{
   position:relative;
-  padding:30px 5.4% 31px;
+  padding:28px 5.4% 28px;
   background:
     radial-gradient(circle at 15% 15%,#e8dfcc35 0 1px,transparent 1.5px) 0 0/18px 18px,
     var(--paper);
@@ -260,7 +261,7 @@ img{max-width:100%}
   box-shadow:0 5px 18px #14253f12;
 }
 .boat-image{
-  height:151px;
+  height:150px;
   overflow:hidden;
   background:#d9d2c4;
 }
@@ -309,8 +310,8 @@ img{max-width:100%}
   width:min(1160px,100%);
   margin:auto;
   display:grid;
-  grid-template-columns:1.45fr 1fr 1fr 1fr;
-  grid-template-rows:119px 119px;
+  grid-template-columns:1.55fr 1fr 1fr 1fr;
+  grid-template-rows:132px 132px;
   gap:8px;
 }
 .g{
@@ -456,6 +457,7 @@ footer{display:none}
 }
 
 @media(max-width:900px){
+  .hero{height:720px;min-height:720px}
   .nav{height:64px;padding:0 18px}
   .nav nav{
     display:none;
@@ -473,7 +475,7 @@ footer{display:none}
   .nav nav a:first-child:after{display:none}
   .nav-cta{margin-top:4px;justify-content:center}
   .menu{display:block}
-  .hero{min-height:760px}
+  .hero{height:720px;min-height:720px}
   .hero-content{width:88%;padding-top:62px}
   .hero h1{font-size:53px}
   .hero p{max-width:500px}
@@ -536,6 +538,7 @@ footer{display:none}
 }
 
 @media(max-width:560px){
+  .hero{height:720px;min-height:720px}
   .brand-copy b{font-size:14px}
   .brand-copy small{font-size:6.5px}
   .hero-content{width:88%}
